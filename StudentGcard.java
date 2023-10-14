@@ -11,34 +11,35 @@ public class StudentGcard
         double num1,num2,num3,num4,num5;
         double percentage,sum;
 
-        System.out.println("Enter Your name:");
+        System.out.print("Enter Your name:");
         name = sc.nextLine();
         System.out.println(name);
 
-        System.out.println("Enter the English subject Marks:");
+        System.out.print("Enter the English subject Marks:");
         num1 = Double.parseDouble(sc.next());
         System.out.println(num1);
       
-        System.out.println("Enter the subject Marks:");
+        System.out.print("Enter the GK subject Marks:");
         num2 = Double.parseDouble(sc.next());
         System.out.println(num2);
 
-        System.out.println("Enter the Maths subject Marks:");
+        System.out.print("Enter the Maths subject Marks:");
         num3 = Double.parseDouble(sc.next());
         System.out.println(num3);
 
-        System.out.println("Enter the Science subject marks:");
+        System.out.print("Enter the Science subject marks:");
         num4 = Double.parseDouble(sc.next());
         System.out.println(num4);
 
-        System.out.println("Enter the Social subject marks:");
+        System.out.print("Enter the Social subject marks:");
         num5 = Double.parseDouble(sc.next());
         System.out.println(num5);
 
         sum= (num1+num2+num3+num4+num5);
         percentage = (sum/5);
 
-        System.out.println(sum);
+        System.out.println("Total:"+sum);
+        System.out.println("percentage:"+percentage+"%");
 
         if(num1 > 40 && num2> 40 && num3 > 40 && num4 > 40 && num5 > 40 )
 
