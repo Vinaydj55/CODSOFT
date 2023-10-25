@@ -1,4 +1,4 @@
 # CODSOFT
-Task 1
-Task 2
-Task 3
+Task 1 -Numbergame
+Task 2 -StudentGcard
+Task 3 -ATMinterface
